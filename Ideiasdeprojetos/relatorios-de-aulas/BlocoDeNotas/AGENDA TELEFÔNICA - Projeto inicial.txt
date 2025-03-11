@@ -1,0 +1,4 @@
+AGENDA TELEFÔNICA
+- Colocar em prática conhecimentos de classes e objetos
+- Agenda pode ser uma classe e cada pessoa que for registrada nesta agenda, será uma instância da classe pessoa
+- Tentar usar herança e polimorfismo além de aplicar sintaxe básica do JAVA
