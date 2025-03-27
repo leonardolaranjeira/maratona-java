@@ -44,4 +44,22 @@ public class Calculadora {
         System.out.println("Num1: " + numero1);
         System.out.println("Num2: " + numero2);
     }
+
+    // Usado com um padrão Array declarado
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    // Usado quando não se sabe quantos valores serão somados em sequência
+    public void somaVarArgs(int... numeros) {
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
