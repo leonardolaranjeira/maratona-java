@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Gexseminarios.dominio;
+package academy.devdojo.maratonajava.javacore.Gassociacao.dominio;
 
 public class Aluno {
     private String nome;
@@ -11,12 +11,8 @@ public class Aluno {
     }
 
     public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
+    public void setNome() { this.nome = nome; }
 
     public int getIdade() { return idade; }
     public void setIdade(int idade) { this.idade = idade; }
-
-    // métodos de associação
-    public Seminario getSeminario() { return seminario; }
-    public void setSeminario(Seminario seminario) { this.seminario = seminario; }
 }
