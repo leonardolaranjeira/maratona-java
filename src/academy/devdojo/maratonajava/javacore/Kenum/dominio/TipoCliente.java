@@ -12,6 +12,7 @@ public enum TipoCliente {
         this.nomeRelatorio = nomeRelatorio;
     }
 
+    // Método de busca usado para achar uma enumeração específica catalogada através de um array
    public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio) {
        for (TipoCliente tipoCliente : values()) {
            if (tipoCliente.getNomeRelatorio().equals(nomeRelatorio)) {
